@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3E1EF9E-59B7-424C-8349-657814D01D76}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B4CC3CA-FDAB-47D3-870A-FDF2AFB59F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEGO4IDControl", "src\LEGO4IDControl\LEGO4IDControl.csproj", "{B3600E95-E857-4845-B4D2-0730AF90AEA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5EE40717-7E9B-4D72-901C-BFD67A3B7B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEGO4IDControlTest", "test\LEGO4IDControlTest.csproj", "{3B29B995-A097-4DEB-AFCB-D05592C7AF89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3600E95-E857-4845-B4D2-0730AF90AEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3600E95-E857-4845-B4D2-0730AF90AEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3600E95-E857-4845-B4D2-0730AF90AEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3600E95-E857-4845-B4D2-0730AF90AEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B29B995-A097-4DEB-AFCB-D05592C7AF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B29B995-A097-4DEB-AFCB-D05592C7AF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B29B995-A097-4DEB-AFCB-D05592C7AF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B29B995-A097-4DEB-AFCB-D05592C7AF89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59D1A0F2-3AE0-4606-AE08-1DBA82C4C162} = {A3E1EF9E-59B7-424C-8349-657814D01D76}
+		{7643D088-3D11-47C8-8321-043B0BECB70A} = {A3E1EF9E-59B7-424C-8349-657814D01D76}
+		{B3600E95-E857-4845-B4D2-0730AF90AEA9} = {5B4CC3CA-FDAB-47D3-870A-FDF2AFB59F90}
+		{3B29B995-A097-4DEB-AFCB-D05592C7AF89} = {5EE40717-7E9B-4D72-901C-BFD67A3B7B7F}
+	EndGlobalSection
+EndGlobal
